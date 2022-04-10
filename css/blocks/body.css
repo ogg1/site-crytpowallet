@@ -1,0 +1,26 @@
+.body__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.body__header-icons {
+    display: flex;
+    column-gap: 16px;
+}
+
+
+.body-cards {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.body-market {
+    display: flex;
+}
+
+.body-market > * + * {
+    margin-left: 32px;
+}

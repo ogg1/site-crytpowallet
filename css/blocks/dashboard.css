@@ -1,0 +1,42 @@
+.dashboard {
+    position: fixed;
+    top: 15px;
+    bottom: 40px;
+
+    display: flex;
+    max-width: 1439px;
+    height: 926px;
+
+    background: #202020;
+    border-radius: 50px;
+}
+
+.dashboard__nav {
+    flex-shrink: 0;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    width: 138px;
+}
+
+.dashboard__body {
+    flex-grow: 1;
+    
+    margin-top: 17px;
+    margin-bottom: 11px;
+    margin-right: 19px;
+
+    padding-top: 26px;
+    padding-left: 68px;
+    padding-right: 56px;
+    padding-bottom: 54px;
+
+    background: #FFFFFF;
+    border-radius: 45px;
+
+}
+
+.all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+
+/*  */
+
+body {
+    /* position: relative; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* font-size: px; */
+    /* line-height: ; */
+    color: #000000;
+
+    background-color: #E5F2FE;
+    background-image: url(./../img/lines-bg.svg);
+    background-size: cover;
+}
+
+/* скрыть для верстки адаптива */
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* обычный контейнер */
+
+.container {
+    max-width: px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* широкий контейнер */
+
+.container-wide {
+    max-width: px;
+}
+
+/* нет скрола для моб меню */
+
+.no-scroll {
+    overflow: hidden;
+}

@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav__logo {
+    margin-bottom: 132px;
+    text-align: center;
+}
+
+.nav__icons {
+    /* блок растет */
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul.nav__icons-list {
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul.nav__icons-list li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+ul.nav__icons-list li:last-child {
+    margin-bottom: 0;
+}
+
+.nav__icons-list li.nav__icons-list-last-icon {
+    margin-top: auto;
+}
+
+.nav__icons-list li:hover rect {
+    stroke: #E5F2FE;
+} 
+
+.nav__icons-list li:hover .rect-special {
+    fill: #E5F2FE;
+}
+
+.nav__icons-list li:hover path {
+    fill: #E5F2FE;
+}
+
